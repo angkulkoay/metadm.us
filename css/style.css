@@ -342,7 +342,7 @@ a, a:focus, a:active, a:hover {
 }
 
 a, a:focus, a:active {
-	color: #00e39f;
+	color: #1E3565;
 }
 
 a:hover {
@@ -565,7 +565,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .link-play-creative .icon:hover {
-	color: #00e39f;
+	color: #00e39f1;
 }
 
 .link-play-creative-title {
@@ -726,7 +726,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .box-icon-creative-title a:hover {
-	color: #00e39f;
+	color: #00e391f;
 }
 
 * + .box-icon-creative-title {
@@ -976,7 +976,7 @@ a[href*='tel'], a[href*='mailto'] {
 	min-height: 55px;
 	font-size: 48px;
 	line-height: 55px;
-	color: #00e39f;
+	color: #1E3565;
 }
 
 .box-icon-megan-icon.icon-46 {
@@ -3264,7 +3264,7 @@ h3 + .title-decor-left {
 	left: 0;
 	bottom: 0;
 	width: 150%;
-	background: linear-gradient(to right, #359fd6, #00e39f);
+	background: linear-gradient(to right, #00e3ff, #1E3565);
 	z-index: -1;
 	transition: all .25s ease-in-out;
 	will-change: transform;
@@ -3687,7 +3687,7 @@ h3 + .title-decor-left {
 }
 
 .button-icon-right.button-primary:hover .icon, .button-icon-right.button-primary:active .icon {
-	background: #00e39f;
+	background: #00e39f1;
 }
 
 .button-icon-right.button-gray-3 .icon {
@@ -6189,7 +6189,7 @@ p + .quote-classic {
 	align-items: center;
 	flex-direction: column;
 	justify-content: flex-end;
-	padding: 25px 15px 0;
+	padding: 25px 15px 10px;
 	z-index: 1;
 }
 
@@ -6223,7 +6223,7 @@ p + .quote-classic {
 .quote-tara-status {
 	font-size: 14px;
 	letter-spacing: .05em;
-	color: #00e39f;
+	color: #1E3565;
 }
 
 * + .quote-tara-figure {
@@ -6241,7 +6241,7 @@ p + .quote-classic {
 @media (min-width: 992px) {
 	.desktop .quote-tara-caption,
 	.owl-item .quote-tara-caption {
-		padding: 38px 15px 46px;
+		padding: 38px 15px 20px;
 	}
 	.desktop .quote-tara-caption::before,
 	.owl-item .quote-tara-caption::before {
@@ -6298,6 +6298,29 @@ p + .quote-classic {
 		padding-right: 25px;
 	}
 }
+
+@media (max-width: 992px) {
+	.desktop .quote-tara-caption,
+	.owl-item .quote-tara-caption {
+		padding: 38px 15px 100px;
+	}
+}
+
+
+@media (min-width: 992px) {
+	.desktop .quote-tara-caption,
+	.owl-item .quote-tara-caption {
+		padding: 38px 25px 25px;
+	}
+}
+
+/*@media (max-width: 576px) {
+	.desktop .quote-tara-caption,
+	.owl-item .quote-tara-caption {
+		padding: 20px 25px 60px;
+	}
+}
+*/
 
 .ie-10 .quote-tara-text,
 .ie-11 .quote-tara-text,
@@ -7783,7 +7806,7 @@ p + .quote-classic {
 }
 
 .footer-social-list-2 .icon::after {
-	background: #00e39f;
+	background: #2C2C2C;
 }
 
 .footer-social-list-2 a:hover {
@@ -11720,7 +11743,7 @@ html [class*='section-'].section-top-0 {
 }
 
 .bg-gradient-1 {
-	background-image: linear-gradient(to right, #359fd6, #00e39f);
+	background-image: linear-gradient(to right, #090979, #00c5ff);
 }
 
 .bg-dark-overlay {
@@ -12892,7 +12915,7 @@ html:not(.lt-ie10) .not-animated {
 	width: 0;
 	height: 0;
 	border: 31px solid transparent;
-	border-bottom: 54px solid #00e39f;
+	border-bottom: 54px solid #1E3565;
 	animation: tri 1.5s linear infinite;
 }
 
@@ -13347,7 +13370,7 @@ html.tablet .ui-to-top {
 	right: 100%;
 	width: 10px;
 	height: 3px;
-	background: #00e39f;
+	background: #1E3565;
 	opacity: 0;
 	transition: all .2s ease, right 0s ease .2s;
 }
@@ -14157,7 +14180,7 @@ html.tablet .ui-to-top {
 
 .rd-navbar-fixed .rd-nav-item:hover .rd-nav-link, .rd-navbar-fixed .rd-nav-item.focus .rd-nav-link, .rd-navbar-fixed .rd-nav-item.active .rd-nav-link, .rd-navbar-fixed .rd-nav-item.opened .rd-nav-link {
 	color: #ffffff;
-	background: #00e39f;
+	background: #1E3665;
 }
 
 .rd-navbar-fixed .rd-nav-item:hover > .rd-navbar-submenu-toggle, .rd-navbar-fixed .rd-nav-item.focus > .rd-navbar-submenu-toggle, .rd-navbar-fixed .rd-nav-item.active > .rd-navbar-submenu-toggle, .rd-navbar-fixed .rd-nav-item.opened > .rd-navbar-submenu-toggle {
@@ -15491,7 +15514,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .list-share-2 .icon:hover {
-	background: #00e39f;
+	background: #1E3565;
 }
 
 .list-share-2 .mdi-google-plus {
@@ -18301,7 +18324,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .progress-gradient .progress-bar-linear {
-	background: linear-gradient(to right, #359fd6, #00e39f);
+	background: linear-gradient(to right, #359fd6, #1E3565);
 }
 
 .progress-gradient .progress-bar-linear::before {
@@ -18309,7 +18332,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .progress-gradient .progress-marker {
-	background: linear-gradient(to right, #359fd6, #00e39f);
+	background: linear-gradient(to right, #359fd6, #1E3565);
 }
 
 * + .progress-bar-linear-wrap {
@@ -21496,3 +21519,6 @@ disabled look for disabled choices in the results dropdown
     fill: var(--uim-color, currentColor);
 }
 
+.pd-top-150{
+	padding-top: 150px;
+}
