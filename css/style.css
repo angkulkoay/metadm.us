@@ -2436,7 +2436,7 @@ p + .list-marked {
 	right: 20px;
 	height: 6px;
 	width: 1000%;
-	background: #00e39f;
+	background: #1E3565;
 }
 
 @media (min-width: 576px) {
@@ -2509,7 +2509,7 @@ p + .list-marked {
 	width: 28px;
 	height: 28px;
 	background: #ffffff;
-	border: 5px solid #00e39f;
+	border: 5px solid #00E39F;
 	border-radius: 50%;
 	transform: translate3d(-50%, -50%, 0);
 	transition: all .3s ease-in-out;
